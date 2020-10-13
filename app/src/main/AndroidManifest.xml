@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.CarProject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.CarProject.SearchResults"></activity>
+        <activity android:name="com.example.CarProject.Search" />
+        <activity android:name="com.example.CarProject.Booking" />
+        <activity android:name="com.example.CarProject.SignUp" />
+        <activity android:name="com.example.CarProject.ManagerLogin" />
+        <activity android:name="com.example.CarProject.CustomerActivity" />
+        <activity android:name="com.example.CarProject.ManagerActivity" />
+        <activity android:name="com.example.CarProject.ShowAvailableCars" />
+        <activity android:name="com.example.CarProject.DeleteCar" />
+        <activity android:name="com.example.CarProject.EditCar" />
+        <activity android:name="com.example.CarProject.ShowCars" />
+        <activity android:name="com.example.CarProject.AddCar" />
+        <activity android:name="com.example.CarProject.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
